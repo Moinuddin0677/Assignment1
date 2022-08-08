@@ -1,0 +1,205 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <h1>Form table</h1>
+    <table border="1" width="100%">
+        <tbody>
+            <tr>
+                <th>Register</th>
+                <th>SignIn</th>
+                <th>Search</th>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Register</h3>
+                    <div>
+                        <form>
+                            <div>
+                            <label for="name">First Name:</label>
+                            <input type="text" id="name"placeholder="First Name"required>
+                            
+                            <label for="last name">Last Name:</label>
+                            <input type="text" id="last name"placeholder="Last Name"required>
+                            </div>
+                            
+                            <div>
+                            <label for = "Male"> Male:</label>
+                            <input name = "gender" id ="Male" type ="radio" value = "Male">
+                            
+                            <label for = "Female"> Female:</label>
+                            <input name = "gender" id ="Female" type ="radio" value = "Female">
+                            
+                            <label for = "Others"> Others:</label>
+                            <input name = "gender" id ="Others" type ="radio" value = "Ohters">
+                            </div>
+                            
+                            <div>
+                            <label >
+                            Email:
+                            <input type="email" name="email" placeholder="your email" required>
+                            </label>
+                            
+                            <label>Password:</label>
+                            <input name="password" type="password" pattern=".{5,10}" placeholder="Password" required="5 to 10 character ">
+                            </div>
+                            
+                            <div>
+                            <label>Birthday:</label>
+                            <select>
+                                <option>day</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                            <select>
+                                <option> month</option>
+                                <option>jan</option>
+                                <option>feb</option>
+                                <option>march</option>
+                                <option>april</option>
+                                <option>may</option>
+                                <option>june</option>
+                                <option>july</option>
+                                <option>aug</option>
+                                <option>sept</option>
+                                <option>oct</option>
+                                <option>nov</option>
+                                <option>dec</option>
+                            </select>
+                            <select >
+                                <option>year</option>
+                                <option>1990</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</ption>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                <option>2008</option>
+                                <option>2009</option>
+                            </select>
+                            </div>
+                            
+                            <div>
+                            <label for="checkbox">I agree to the terms and conditions</label>
+                            <input type="checkbox" name="checkbox" id="checkbox"required>
+                            </div>	
+                            
+                            <div>
+                            <button type="submit">Click Me!</button>
+                            </div>	
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <h3>SignIn/ LogIn</h3>
+                    <div>
+                        <form action="/sign-in-url" method="post" id="login">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" required><br>
+                            <label for="password">Password:</label>
+                            <input id="password" type="password" required><br>
+                            
+                            <button><input type="submit" value="SignIn"></button>
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <h3> you wanna search GOOGLE!!!</h3>
+                    <div>
+                        <form action="https://www.google.com/search?">
+                            <input type="text" name="q">
+                            <button> Google Search!!</button>
+                        </form>
+                        <h3> You Wanna search YOUTUBE!!!</h3><br>
+                        <form action="https://www.youtube.com/results?">
+                            <input type="text" name="search_query">
+                            <button> youtube Search!!</button>
+                        </form>
+                        <h3>agreement!!!!</h3>
+                        <form action="/box">
+                            <input type="checkbox" id="cb" name="checkbox" cheacked>
+                            <label for="cb"> I agree to all the terms and conditions!</label>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div>
+        <h1>First Gen Pokemon Chart</h1>
+        <table border="5" width="100%">
+            <tr>
+                <th> Image</th>
+                <th> Name</th>
+                <th> Type</th>
+                <th> Evolves Into</th>
+            </tr>
+            <tr>
+                <td> <img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+                <td>Bulbasaur</td >
+                <td>Grass/Poison</td>
+                <td> <a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
+            </tr>
+            <tr>
+                <td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+                <td>Charmander</td>
+                <td>Fire</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Charmeleon ">Charmeleon</a></td>
+            </tr>
+            <tr>
+                <td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+                <td>Squirtle</td>
+                <td>Water</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
+            </tr>	
+        </table>
+    </div>
+    
+</body>
+</html>
